@@ -1,0 +1,163 @@
+*{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, span, button{
+       font-family: "Work Sans", sans-serif;
+       font-optical-sizing: auto;
+       font-style: normal;
+}
+
+ul, li{
+       list-style-type: none;
+}
+
+a{
+       text-decoration: none;
+}
+
+.container{
+       width: 70%;
+       margin: 0 auto;
+}
+
+:root{
+       scroll-behavior: smooth;
+       --pink: #FF42A5;
+       --navy: #0B0223;
+       --sky: #4EC5F7;
+       --grad: -webkit-linear-gradient(#F948B2, #8758F1);
+       /* -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent; */
+       --text: #534C64;
+}
+
+.w-100{
+       width: 100%;
+}
+
+/* ########################################## Navbar ################################# */
+header{
+       box-shadow: 2px 1px 3px 0px #00000017;
+}
+
+header .container{
+       display: flex;
+       justify-content: space-between;
+       padding: 20px 20px;
+}
+
+header .container .logo{
+       display: flex;
+       gap: 10px;
+       align-items: center
+}
+
+header .container ul{
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       gap: 15px;
+}
+
+header .logo{
+       padding: 0 10px;
+}
+
+header .logo h1{
+       font-size: 45px; 
+       font-weight: 700;
+}
+
+header li{
+       padding: 0 10px;
+       font-size: 18px; 
+       font-weight: 500;
+}
+
+header ul .button{
+       background-color: rgba(11, 2, 35, 0.1);
+       padding: 10px 10px;
+       border-radius: 5px;
+       display: flex;
+       gap: 10px;
+       align-items: center;
+}
+
+/*********************************************************** HERO ******************************************************************/
+
+#hero{
+       padding: 100px 0;
+       background-image: url(/images/Group\ 14.png);
+       background-repeat: no-repeat;
+       background-position: left;
+       background-size: contain;
+}
+
+#hero .container{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+}
+
+#hero .button{
+       display: flex;
+       gap: 20px;
+       margin-top: 20px;
+}
+
+.hero-text h2{
+       font-size: 48px;
+       font-weight:600;
+       color: #0B0223;
+       text-transform: uppercase;
+}
+
+.hero-text h1{
+       font-size: 95px;
+       font-weight: 800;
+       background: var(--grad);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+
+#hero li{
+       display: flex;
+       gap: 10px;
+       padding: 5px 0;
+       align-items: center;
+       font-size:20px;
+       font-weight: 500;
+       color: #534C64;
+}
+
+#hero button{
+       background: var(--pink);
+       color: #fff;
+       padding: 15px 25px;
+       border: none;
+       border-radius: 50px;
+       font-size: 20px;
+       font-weight: 500;
+       text-transform: uppercase;
+}
+
+#hero .blue-btn{
+       background: var(--sky);
+}
+
+#hero .hero-img{
+       display: grid;
+       align-items: center;
+}
+
+
+
+
+/*********************************************************** WE ARE GAMER ******************************************************************/
+/*********************************************************** FUNNY GAMES ******************************************************************/
+/*********************************************************** PLAY INSTANTLY ******************************************************************/
+/*********************************************************** CAREER ******************************************************************/
+/*********************************************************** GATAGORY ******************************************************************/
+/*********************************************************** FOOTER ******************************************************************/
