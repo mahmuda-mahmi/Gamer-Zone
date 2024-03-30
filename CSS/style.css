@@ -31,7 +31,7 @@ a{
        --grad: -webkit-linear-gradient(#F948B2, #8758F1);
        /* -webkit-background-clip: text;
        -webkit-text-fill-color: transparent; */
-       --text: #534C64;
+       --text:#534C64;
 }
 
 .w-100{
@@ -89,7 +89,7 @@ header ul .button{
 /*********************************************************** HERO ******************************************************************/
 
 #hero{
-       padding: 100px 0;
+       padding: 0 0 100px 0;
        background-image: url(/images/Group\ 14.png);
        background-repeat: no-repeat;
        background-position: left;
@@ -107,6 +107,9 @@ header ul .button{
        margin-top: 20px;
 }
 
+.hero-text{
+       padding: 120px 0 0 0;
+}
 .hero-text h2{
        font-size: 48px;
        font-weight:600;
@@ -150,12 +153,69 @@ header ul .button{
 #hero .hero-img{
        display: grid;
        align-items: center;
+       padding-top: 40px;
 }
 
 
-
-
 /*********************************************************** WE ARE GAMER ******************************************************************/
+
+#gamer{
+       background-color: rgba(255, 66, 165, .03);
+       padding: 100px 0;
+
+}
+
+#gamer .container{
+       display: grid;
+       grid-template-columns: 60% 40%;
+       text-align: right;
+}
+
+.gamer-text{
+       display: grid;
+       row-gap: 10px;
+       justify-items: right;
+}
+
+.gamer-text h2{
+       font-size: 48px;
+       font-weight: 700;
+       background: var(--grad);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+
+.gamer-text p{
+       font-size: 16px;
+       font-weight: 400;
+       color: var(--text);
+}
+
+#gamer button{
+       width: 40%;
+       background: var(--pink);
+       color: #fff;
+       padding: 10px 20px;
+       border: none;
+       border-radius: 50px;
+       font-size: 18px;
+       font-weight: 500;
+       text-transform: uppercase;
+}
+
+#gamer h6{
+       font-size: 24px;
+       font-weight: 500;
+       color: var(--text);
+       line-height: 15px;
+       margin-top: 10px;
+}
+
+#gamer h3{
+       font-size: 25px;
+       font-weight: 700;
+       color: var(--text);
+}
 /*********************************************************** FUNNY GAMES ******************************************************************/
 /*********************************************************** PLAY INSTANTLY ******************************************************************/
 /*********************************************************** CAREER ******************************************************************/
