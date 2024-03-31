@@ -250,6 +250,64 @@ header ul .button{
 }
 
 /*********************************************************** PLAY INSTANTLY ******************************************************************/
-/*********************************************************** CAREER ******************************************************************/
-/*********************************************************** GATAGORY ******************************************************************/
+/************************************************* CAREER **************************************************/
+
+#career{
+       background-color: rgba(255, 66, 165, 1);
+       padding: 100px 0;
+       background-image: url(/images/Group\ 14.png);
+       background-repeat: no-repeat;
+       background-position: left;
+       background-size: contain;
+}
+
+#career .container{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+#career .career-list{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 20px;
+}
+
+#career h2, p, .career-list, button{
+       margin: 15px 0;
+}
+
+#career h2{
+       color: #fff;
+       font-size: 48px;
+       font-weight: 700;
+}
+
+#career p{
+       color: #fff;
+}
+
+#career li{
+       color: #fff;
+       font-size: 20px;
+       font-weight: 500;
+}
+
+#career button{
+       font-size: 20px;
+       font-weight: 600;
+       color: var(--pink);
+       padding: 15px 20px;
+       border: none;
+       border-radius: 50px;
+       background-color: #fff;
+}
+
+#career .list-right{
+       text-align: right;
+}
+
+
+/********************************************** CATAGORY *******************************************************/
 /*********************************************************** FOOTER ******************************************************************/
