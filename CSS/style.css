@@ -262,6 +262,48 @@ header ul .button {
 }
 
 /*********************************************************** PLAY INSTANTLY ******************************************************************/
+
+#play-instantly .container{
+       display: grid;
+       grid-template-columns: 40% 40%;
+       gap: 20%;
+}
+
+#play-instantly .left{
+       text-align: right;
+       padding: 0 0 0 20px;
+}
+
+#play-instantly h2{
+       color: var(--pink);
+       font-size: 48px;
+       font-weight: 700;
+}
+
+#play-instantly h3{
+       color: var(--navy);
+       font-size: 48px;
+       font-weight: 700;
+}
+
+#play-instantly p{
+       color: #534C64;
+       font-size: 18px;
+       font-weight: 400;
+}
+
+#play-instantly .right{
+       position: relative;
+}
+
+#play-instantly .right .angela{
+       position: absolute;
+       bottom: -20%;
+       left: -20%;
+       width: 55%;
+
+}
+
 /************************************************* CAREER **************************************************/
 
 #career {
@@ -355,11 +397,23 @@ footer ul {
        color: #fff;
 }
 
-footer .footer-img, .footer-end{
+footer .footer-end{
        display: flex;
        gap: 50px;
        align-items: center;
        justify-content: center
+}
+
+footer .footer-img{
+       display: grid;
+       grid-template-columns: repeat(6, 1fr);
+       align-items: center;
+       justify-content: center;
+       justify-items: center;
+}
+
+footer .footer-img img{
+       width: 30%;
 }
 
 footer h5{
