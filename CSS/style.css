@@ -263,41 +263,41 @@ header ul .button {
 
 /*********************************************************** PLAY INSTANTLY ******************************************************************/
 
-#play-instantly .container{
+#play-instantly .container {
        display: grid;
        grid-template-columns: 40% 40%;
        gap: 20%;
        margin-bottom: 200px;
 }
 
-#play-instantly .left{
+#play-instantly .left {
        text-align: right;
        padding: 0 0 0 20px;
 }
 
-#play-instantly h2{
+#play-instantly h2 {
        color: var(--pink);
        font-size: 48px;
        font-weight: 700;
 }
 
-#play-instantly h3{
+#play-instantly h3 {
        color: var(--navy);
        font-size: 48px;
        font-weight: 700;
 }
 
-#play-instantly p{
+#play-instantly p {
        color: #534C64;
        font-size: 18px;
        font-weight: 400;
 }
 
-#play-instantly .right{
+#play-instantly .right {
        position: relative;
 }
 
-#play-instantly .right .angela{
+#play-instantly .right .angela {
        position: absolute;
        bottom: -20%;
        left: -20%;
@@ -305,15 +305,15 @@ header ul .button {
 
 }
 
-#play-instantly .container-bottom .right .angela-btm{
+#play-instantly .container-bottom .right .angela-btm {
        position: absolute;
        bottom: -20%;
-       right: -20%!important;
+       right: -20% !important;
        width: 55%;
 
 }
 
-#play-instantly .container-bottom .left{
+#play-instantly .container-bottom .left {
        text-align: left !important;
 }
 
@@ -321,7 +321,7 @@ header ul .button {
 
 #career {
        background-color: var(--pink);
-       margin: 100px 0;
+       margin: 100px 0 0 0;
        display: grid;
        grid-template-columns: repeat(2, 1fr);
        column-gap: 10px;
@@ -374,7 +374,52 @@ header ul .button {
        text-align: right;
 }
 
-/********************************************** CATAGORY *******************************************************/
+/********************************************** CATAGORY ****************************************/
+
+#btn {
+       padding: 100px 0;
+}
+
+#btn .container {
+       
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       column-gap: 13px;
+       row-gap: 20px;
+}
+
+#btn .catagory {
+       display: grid;
+       grid-template-columns: 30px 78%;
+       justify-content: center;
+       align-items: center;
+       column-gap: 10px;
+       border: 1px solid transparent;
+       border-radius: 50px;
+       padding: 10px;
+       transition: ease 0.3s;
+}
+
+#btn .catagory:hover{
+       border: 1px solid var(--pink);
+       transition: ease 0.3s;
+}
+
+#btn .catagory:hover h5{
+       color: var(--pink);
+       transition: ease 0.3s;
+}
+
+#btn .catagory img {
+       width: 100%;
+}
+
+
+
+
 /*********************************************** FOOTER **********************************************/
 
 footer {
@@ -382,7 +427,7 @@ footer {
        background-color: var(--navy);
 }
 
-footer .container{
+footer .container {
        display: grid;
        align-items: center;
        justify-content: center;
@@ -410,14 +455,14 @@ footer ul {
        color: #fff;
 }
 
-footer .footer-end{
+footer .footer-end {
        display: flex;
        gap: 50px;
        align-items: center;
        justify-content: center
 }
 
-footer .footer-img{
+footer .footer-img {
        display: grid;
        grid-template-columns: repeat(6, 1fr);
        align-items: center;
@@ -425,11 +470,11 @@ footer .footer-img{
        justify-items: center;
 }
 
-footer .footer-img img{
+footer .footer-img img {
        width: 30%;
 }
 
-footer h5{
+footer h5 {
        font-size: 16px;
        font-weight: 500;
        color: var(--text);
