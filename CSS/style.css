@@ -196,10 +196,10 @@ header ul .button{
        width: 40%;
        background: var(--pink);
        color: #fff;
-       padding: 10px 20px;
+       padding: 15px 20px;
        border: none;
        border-radius: 50px;
-       font-size: 18px;
+       font-size: 16px;
        font-weight: 500;
        text-transform: uppercase;
 }
@@ -213,7 +213,7 @@ header ul .button{
 }
 
 #gamer h3{
-       font-size: 25px;
+       font-size: 22px;
        font-weight: 700;
        color: var(--text);
 }
@@ -253,29 +253,28 @@ header ul .button{
 /************************************************* CAREER **************************************************/
 
 #career{
-       background-color: rgba(255, 66, 165, 1);
-       padding: 100px 0;
-       background-image: url(/images/Group\ 14.png);
-       background-repeat: no-repeat;
-       background-position: left;
-       background-size: contain;
-}
-
-#career .container{
+       background-color: var(--pink);
+       margin: 100px 0;
+       padding:  50px 0;
        display: grid;
        grid-template-columns: repeat(2, 1fr);
+       column-gap: 10px;
 }
 
+#career .career{
+       display: grid;
+       padding: 5%;
+}
 
+#career .career-text{
+       display: grid;
+       row-gap: 15px;
+}
 
 #career .career-list{
        display: grid;
        grid-template-columns: repeat(2, 1fr);
-       gap: 20px;
-}
-
-#career h2, p, .career-list, button{
-       margin: 15px 0;
+       justify-content: space-between;
 }
 
 #career h2{
@@ -284,21 +283,22 @@ header ul .button{
        font-weight: 700;
 }
 
-#career p{
-       color: #fff;
-}
-
-#career li{
+#career h3{
        color: #fff;
        font-size: 20px;
        font-weight: 500;
 }
 
+#career p{
+       color: #fff;
+}
+
 #career button{
+       width: 35%;
        font-size: 20px;
        font-weight: 600;
        color: var(--pink);
-       padding: 15px 20px;
+       padding: 10px 15px;
        border: none;
        border-radius: 50px;
        background-color: #fff;
