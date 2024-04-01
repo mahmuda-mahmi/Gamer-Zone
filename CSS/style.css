@@ -261,6 +261,24 @@ header ul .button {
        margin-top: 30px;
 }
 
+#online .online-img .img-box{
+       position: relative;
+}
+
+#online .watch-now{
+       background-color:#0b0223c2;
+       border: 4px solid var(--pink);
+       border-radius: 16px;
+       display: grid;
+       align-items: center;
+       justify-content: center;
+       height: 100%;
+       width: 100%;
+       position: absolute;
+       top: -1%;
+       left: 0%;
+}
+
 /*********************************************************** PLAY INSTANTLY ******************************************************************/
 
 #play-instantly .container {
