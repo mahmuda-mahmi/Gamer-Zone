@@ -4,6 +4,10 @@
        box-sizing: border-box;
 }
 
+.hide{
+       display: none !important;
+}
+
 h1,
 h2,
 h3,
@@ -261,8 +265,17 @@ header ul .button {
        margin-top: 30px;
 }
 
+#online .online-img p{
+       font-size: 16px;
+       font-weight: 400;
+       margin-top: 10px;
+}
 #online .online-img .img-box{
        position: relative;
+}
+
+#online .online-img .img-box .img{
+       border-radius: 16px;
 }
 
 #online .watch-now{
@@ -277,6 +290,13 @@ header ul .button {
        position: absolute;
        top: -1%;
        left: 0%;
+       opacity: 0;
+       transition: ease 0.3s;
+}
+
+#online .online-img .img-box:hover .watch-now{
+       opacity: 1;
+       transition: ease 0.3s;
 }
 
 /*********************************************************** PLAY INSTANTLY ******************************************************************/
