@@ -84,6 +84,54 @@
        #gamer h3{
               font-size: 18px;
        }
+
+       /* ################### ONLINE ################# */
+       
+       #online {
+              padding: 50px 0 100px 0;
+       }
+       #online .online-img {
+              grid-template-columns: repeat(1, 1fr);
+              gap: 25px;
+       }
+       .online-text h3{
+              font-size: 20px;
+       }
+       .online-text p{
+              font-size: 16px;
+              margin: 15px 0;
+       }
+
+       /* ################# PLAY INSTANTLY ################ */
+       #play-instantly .container{
+              grid-template-columns: repeat(1, 1fr);
+       }
+       #play-instantly .left{
+              text-align: center;
+              padding: 0;
+       }
+       #play-instantly h2{
+              font-size: 35px;
+              line-height: 50px;
+       }
+       #play-instantly h3{
+              font-size: 35px;
+              line-height: 50px;
+       }
+       #play-instantly p{
+              margin-top: 20px;
+       }
+
+       #play-instantly .container-bottom{
+              display: flex;
+              flex-direction: column-reverse;
+              gap: 40px;
+       }
+
+       #play-instantly .container-bottom .left {
+              text-align: center !important;
+          }
+       
 }
 
 /**************** Medium **********************************************************************************************************/
