@@ -168,11 +168,16 @@
               width: 55%;
        }
 
-       .career-img img {
+       .career-img{
+              display: flex;
               justify-content: center;
-              align-items: center;
-              text-align: right;
        }
+
+       .career-img img {
+              width: 80%;
+       }
+
+       
 }
 
 /**************** Medium **********************************************************************************************************/
