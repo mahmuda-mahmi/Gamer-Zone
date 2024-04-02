@@ -146,6 +146,18 @@
               text-align: center !important;
        }
 
+       #play-instantly .right .angela {
+              bottom: -10%;
+              left: -15%;
+              width: 45%;
+       }
+
+       #play-instantly .container-bottom .right .angela-btm {
+              bottom: -10%;
+              right: -15% !important;
+              width: 45%;
+       }
+
 
        /* ############## CAREER ############### */
        #career {
@@ -165,10 +177,10 @@
        }
 
        #career button {
-              width: 55%;
+              width: 70%;
        }
 
-       .career-img{
+       .career-img {
               display: flex;
               justify-content: center;
        }
@@ -177,7 +189,28 @@
               width: 80%;
        }
 
+       /* ############### FOOTER ################ */
+       footer .container {
+              width: 100% !important;
+       }
 
+       footer ul {
+              flex-wrap: wrap;
+              padding: 0 50px;
+              justify-content: space-evenly;
+              align-items: center;
+       }
+
+       footer .footer-img {
+              gap: 30px;
+              padding: 0 60px;
+              grid-template-columns: repeat(2, 1fr);
+       }
+       
+       footer .footer-end{
+              gap: 30px;
+              flex-direction: column;
+       }
 }
 
 /**************** Medium **********************************************************************************************************/
